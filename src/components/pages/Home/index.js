@@ -1,11 +1,11 @@
 import React from 'react';
-import Menu from './components/Menu'
-import dadosIniciais from './data/dados_iniciais.json'
-import BannerMain from './components/BannerMain'
-import Carousel from './components/Carousel'
-import Footer from './components/Footer'
+import Menu from '../../Menu'
+import dadosIniciais from '../../../data/dados_iniciais.json'
+import BannerMain from '../../BannerMain'
+import Carousel from '../../Carousel'
+import Footer from '../../Footer'
 
-function App() {
+function Home() {
   return (
     <div>
     {/*Esse 'Menu' foi importado, criamos um componente para poder coloca-lo aqui*/ }
@@ -64,7 +64,6 @@ category={dadosIniciais.categorias[5]}
 />
 
 
-
 <Footer />
 
       
@@ -72,4 +71,4 @@ category={dadosIniciais.categorias[5]}
   );
 }
 
-export default App;
+export default Home;
